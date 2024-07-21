@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-gradient {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fade-out {
+  position: relative;
+  mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+body {
+  font-family: 'Reenie Beanie', cursive;
+  position: relative;
+  overflow-x: hidden;
+}
+.gradient-hero{
+  height: 1000px;
+  width: 1400px;
+  background-image: radial-gradient(closest-side, rgba(40, 3, 255, 0.21),#0425ff,transparent);
+  position: absolute;
+  top: -570px;
+  right:2%;
+
+
+}
